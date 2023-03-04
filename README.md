@@ -1,1 +1,1 @@
-# killhook
+just fucking run main.py
