@@ -20,7 +20,12 @@ power#1988 | dsc.gg/binded join up brodie |github/gitpowerr
 def spam():
     while True:
         webhook = input("Webhook Here : ")
-        valid = requests.get(webhook)
+        try:
+            valid = requests.get(webhook)
+            pass
+        except:
+            print(colorama.Fore.RED + "[!] Invalid Webhook")
+            continue
         if valid.status_code == 200:
             content = input("Content Here : ")
             name = input("Bot Name Here : ")
@@ -28,7 +33,7 @@ def spam():
             amount = int(input("Amount : "))
             count = 1
             while count <= amount:
-                requests.post(webhook, json={'content': content, 'username': name, 'avarar_url': avatar})
+                requests.post(webhook, json={'content': content, 'username': name, 'avatar_url': avatar})
                 print(colorama.Fore.GREEN + f"[+] Sent {count}")
                 count += 1 
             delete = input(colorama.Fore.LIGHTMAGENTA_EX + "Delete Webhook ? Y/n : ")
