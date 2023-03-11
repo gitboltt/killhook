@@ -1,5 +1,5 @@
 discord - dsc.gg/binded
-user - power#1172
+user - bolt#1172
 
 # ❓
 1. Download Zip
