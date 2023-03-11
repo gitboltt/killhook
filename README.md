@@ -1,6 +1,6 @@
 # 🪝
 Simple discord webhook spammer built w python
- - dsc.gg/binded
+ - https://dsc.gg/binded
  - bolt#1172
 
 # 👣
