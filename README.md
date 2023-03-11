@@ -1,22 +1,14 @@
-discord - dsc.gg/binded
-user - bolt#1172
+# 🪝
+Simple discord webhook spammer built w python
+ - dsc.gg/binded
+ - bolt#1172
 
-# ❓
-1. Download Zip
-2. Extract All
-3. Open cmd in the same directory
-4. `pip install -r requirements.txt`
-5. run file
+# 👣
+* Download Zip
+* Extract All
+* Open cmd in same dir (click the paths and delete all of it and type cmd) 
+* `pip install -r requirements.txt`
+* `python main.py`
 
 # ❗
-Common Problems
-
-* Not in same dir
-* Python not installed
-* Pip not installed
-* Python not added to path
-* imports not installed
-
-# ✅
-run fix.bat
-FIXES MOST PROBLEMS
+* Run fix.bat if you got any errors. It's not malware you can check it yourself. Windows automatically flags bat and shell files from 3rd parties. 
