@@ -1,5 +1,10 @@
 import requests
 import colorama;from colorama import init;init(autoreset=True)
+
+__author__ = 'bolt#1172'
+__server__ = 'dsc.gg/binded'
+
+
 class Bolt:
     def __init__(self):
         self.webhook = input(colorama.Fore.LIGHTMAGENTA_EX + '[ $ ] Webhook Here : ')
